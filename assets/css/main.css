@@ -2307,6 +2307,7 @@ input, select, textarea {
 
 		ul.default li {
 			padding-left: 0.5em;
+			list-style-type: circle;
 		}
 
 /* Actions */
