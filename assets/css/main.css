@@ -2303,11 +2303,11 @@ input, select, textarea {
 	ul.default {
 		list-style: disc;
 		padding-left: 1em;
+		list-style-type: circle;
 	}
 
 		ul.default li {
 			padding-left: 0.5em;
-			list-style-type: circle;
 		}
 
 /* Actions */
