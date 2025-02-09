@@ -5,56 +5,78 @@
 
 // Duration.
 	$duration: (
+		navPanel:			0.5s,
 		transition:			0.2s
 	);
 
 // Size.
 	$size: (
-		border-radius:		4px,
-		element-height:		2.75em,
+		navPanel:			275px,
+		border-radius:		6px,
+		element-height:		3em,
 		element-margin:		2em,
 		container-width:	60em
 	);
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Source Sans Pro', sans-serif),
+		family-fixed:		monospace,
 		weight:				300,
-		weight-bold:		400
+		weight-bold:		400,
 	);
 
 // Palette.
 	$palette: (
-		bg:					#fff,
-		fg:					#666,
-		fg-bold:			#555,
-		fg-light: 			#999,
-		border:				rgba(144,144,144,0.5),
-		border-bg:			rgba(144,144,144,0.075),
-		border2:			rgba(144,144,144,0.75),
-		border2-bg:			rgba(144,144,144,0.2),
-		accent1:			#c3e895,
-		accent2:			#8addaa,
-		accent3:			#6bd4c8,
-		accent4:			#57aed3,
-		accent5:			#4a87d3,
-		accent6:			#6b88e6,
-		accent1-alt:		desaturate(darken(#c3e895, 15), 20),
-		accent2-alt:		desaturate(darken(#8addaa, 15), 20),
-		accent3-alt:		desaturate(darken(#6bd4c8, 15), 20),
-		accent4-alt:		desaturate(darken(#57aed3, 15), 20),
-		accent5-alt:		desaturate(darken(#4a87d3, 15), 20),
-		accent6-alt:		desaturate(darken(#6b88e6, 15), 20),
+		bg:					#f5f5f5,
+		fg:					#777,
+		fg-bold:			#646464,
+		fg-light:			#999,
+		border:				#e5e5e5,
+		border-bg:			#f8f8f8,
+		border2:			#dddddd,
+		border2-bg:			#f0f0f0,
 
-		dark: (
-			bg:				#666666,
+		header: (
+			bg:				#444,
+			fg:				#bbb,
+			fg-bold:		#fff,
+			fg-light:		#999
+		),
+
+		accent1: (
+			bg:				#666,
+			fg:				mix(#666, #ffffff, 25%),
 			fg-bold:		#ffffff,
-			fg:				rgba(255,255,255,0.75),
-			fg-light:		rgba(255,255,255,0.5),
-			border:			#ffffff,
-			border-bg:		rgba(255,255,255,0.125),
-			border2:		rgba(255,255,255,0.75),
-			border2-bg:		rgba(255,255,255,0.25)
+			fg-light:		mix(#666, #ffffff, 40%)
+		),
+
+		accent2: (
+			bg:				#e89980,
+			fg:				mix(#e89980, #ffffff, 25%),
+			fg-bold:		#ffffff,
+			fg-light:		mix(#e89980, #ffffff, 40%)
+		),
+
+		accent3: (
+			bg:				#7fcdb8,
+			fg:				mix(#7fcdb8, #ffffff, 25%),
+			fg-bold:		#ffffff,
+			fg-light:		mix(#7fcdb8, #ffffff, 40%)
+		),
+
+		accent4: (
+			bg:				#90b0ba,
+			fg:				mix(#90b0ba, #ffffff, 25%),
+			fg-bold:		#ffffff,
+			fg-light:		mix(#90b0ba, #ffffff, 40%)
+		),
+
+		accent5: (
+			bg:				#e5cb95,
+			fg:				mix(#e5cb95, #ffffff, 25%),
+			fg-bold:		#ffffff,
+			fg-light:		mix(#e5cb95, #ffffff, 40%)
 		)
+
 	);
